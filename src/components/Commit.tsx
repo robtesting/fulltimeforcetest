@@ -1,3 +1,4 @@
+import moment from 'moment'
 import React from 'react'
 
 interface Props { 
@@ -18,7 +19,7 @@ function Commit(props: Props) {
                 {commit.author.name}
             </td>
             <td>
-                {commit.author.date}
+                {moment(commit.author.date).format('MMMM D YYYY, HH:mm:ss')}
             </td>
             <td>
                 {commit.message}
