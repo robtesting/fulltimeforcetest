@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { getCommits } from './api/GetCommits';
-import './App.css';
 import CommitsTable from './components/CommitsTable';
 import Header from './components/Header';
 

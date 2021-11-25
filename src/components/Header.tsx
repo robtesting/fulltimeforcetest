@@ -7,6 +7,7 @@ function Header() {
         <div>
             <img src={logo} width="100em" alt="logo" />
             <h1>Take-home Test</h1>
+            <hr />
             <div className="alert alert-primary" role="alert">
                 <a href={REPO_LINK} target='_blank' rel="noreferrer">{REPO_LINK}</a>
             </div>
